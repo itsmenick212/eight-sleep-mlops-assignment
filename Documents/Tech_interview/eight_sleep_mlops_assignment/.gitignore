@@ -1,0 +1,40 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+
+# Editor directories and files
+.idea/
+.vscode/
+.DS_Store
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+
+# MacOS
+.Spotlight-V100
+.Trashes
+
+# Ignore large model artifacts to avoid accidental checkin
+inefficient_model.pt
