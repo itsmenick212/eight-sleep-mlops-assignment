@@ -1,5 +1,0 @@
-fastapi
-uvicorn[standard]
-torch
-requests
-numpy<2.0.0
